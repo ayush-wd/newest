@@ -933,7 +933,7 @@
     <link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
     <!-- End Wayback Rewrite JS Include -->
     <meta charset="utf-8">
-    <title>MetaSpace</title>
+    <title>Meta Gaming</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link
@@ -1670,19 +1670,34 @@
             font-display: auto;
         }
 
-        a:hover {
+        a.link:hover {
+            color: blueviolet;
+        }
+
+        a.link-2:hover {
+            color: blueviolet;
+        }
+
+        a.link-17:hover {
+            color: blueviolet;
+        }
+
+        a.link-16:hover {
             color: blueviolet;
         }
 
         div.accordion-item-title---brix-3:hover {
             color: blueviolet;
         }
+
         p.paragraph-2:hover {
-            color : blueviolet;
+            color: blueviolet;
         }
+
         div.growth-box _1:hover {
             background-color: blueviolet;
         }
+
         .b-image {
             background-image: url('Gaming and the metaverse.jpg');
             /* The image used */
@@ -1696,9 +1711,10 @@
             /* Do not repeat the image */
             background-size: cover;
             /* Resize the background image to cover the entire container */
+
         }
 
-        .c-image {
+        #c.image {
             background-image: url('webp_extra_large_image_1330926917.png');
             /* The image used */
             background-color: #000000;
@@ -1711,6 +1727,67 @@
             /* Do not repeat the image */
             background-size: cover;
             /* Resize the background image to cover the entire container */
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        .image-wrap {
+            width: 100%;
+            height: 50vw;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-wrap img {
+            width: 100%;
+            animation: move 40s ease;
+            /* Add infinite to loop. */
+
+            -ms-animation: move 40s ease;
+            -webkit-animation: move 40s ease;
+            -0-animation: move 40s ease;
+            -moz-animation: (move 40s ease);
+            position: absolute;
+        }
+
+        @-webkit-keyframes move {
+            0% {
+                -webkit-transform-origin: bottom left;
+                -moz-transform-origin: bottom left;
+                -ms-transform-origin: bottom left;
+                -o-transform-origin: bottom left;
+                transform-origin: bottom left;
+                transform: scale(1.0);
+                -ms-transform: scale(1.0);
+                /* IE 9 */
+
+                -webkit-transform: scale(1.0);
+                /* Safari and Chrome */
+
+                -o-transform: scale(1.0);
+                /* Opera */
+
+                -moz-transform: scale(1.0);
+                /* Firefox */
+            }
+
+            100% {
+                transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                /* IE 9 */
+
+                -webkit-transform: scale(1.2);
+                /* Safari and Chrome */
+
+                -o-transform: scale(1.2);
+                /* Opera */
+
+                -moz-transform: scale(1.2);
+                /* Firefox */
+            }
         }
     </style>
     <script src="https://web.archive.org/web/20220111154027js_/https://use.typekit.net/qjp7gne.js"
@@ -1757,14 +1834,12 @@
     </div>
     <div class="navbar wf-section">
         <div class="navbar-container w-container"><a href="/web/20220111154027/https://www.metaspacemoon.com/"
-                aria-current="page" class="logo-box w-inline-block w--current"><img
-                    src="https://web.archive.org/web/20220111154027im_/https://uploads-ssl.webflow.com/61b26747ebe3769504b88d29/61b908b8528ac71e36101d21_space%20logo.png"
-                    loading="lazy" alt="" class="image"></a>
+                aria-current="page"><img src="$MGAMING-logo.png" alt="" height="70" width="300"></a>
             <div class="div-block">
                 <div class="navbar-text"><a href="#about" class="link w--current hover">About</a></div>
                 <div class="navbar-text"><a href="#tokenomics" class="link-2 w--current hover">Tokenomics</a></div>
-                <div class="navbar-text"><a href="#growth" class="link-17 w--current">Growth</a></div>
-                <div class="navbar-text"><a href="#roadmap" class="link-16 w--current">Roadmap</a></div><a
+                <div class="navbar-text"><a href="#growth" class="link-17 w--current hover">Growth</a></div>
+                <div class="navbar-text"><a href="#roadmap" class="link-16 w--current hover">Roadmap</a></div><a
                     href="https://web.archive.org/web/20220111154027/https://pancakeswap.finance/swap?outputCurrency=0xb8ced2c93584c4e228df25a88dcbe346df89525d"
                     target="_blank" class="button-3 gaming w-button">BUY $TOKEN</a>
             </div>
@@ -1852,6 +1927,8 @@
                 </a></div>
         </div>
     </div>
+    <br>
+    <br>
     <div id="about" data-w-id="3c134975-5017-2aec-c4f6-866511ec3195" class="metaspace wf-section">
         <div class="metaspace-container w-container">
             <div class="div-block-144">
@@ -1888,6 +1965,7 @@
             </div>
         </div>
     </div>
+    <br><br>
     <div id="tokenomics" class="tokenomics-container w-container">
         <div class="div-block-145">
             <h1 class="h2">MetaSpace <span class="clipped">Tokenomics</span></h1>
@@ -1923,6 +2001,8 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
     <div id="growth" data-w-id="5a53361b-a286-85ed-ffa7-caebfa0b6321" class="growth wf-section">
         <div class="growth-container w-container">
             <div class="div-block-146">
@@ -1933,7 +2013,8 @@
             <div class="w-layout-grid grid-2">
                 <div id="w-node-_739278c8-bdbc-5415-a485-88eb04c747cd-c8b88d2a" class="growth-box _1"
                     style="will-change: opacity; opacity: 1;">
-                    <p class="paragraph-2 hover">2% of tokens to be burnt in the first 36 hours to increase the value of the
+                    <p class="paragraph-2 hover">2% of tokens to be burnt in the first 36 hours to increase the value of
+                        the
                         remaining tokens in circulation.</p>
                 </div>
                 <div class="growth-box _2" style="will-change: opacity; opacity: 1;">
@@ -1984,6 +2065,7 @@
             </div>
         </div>
     </div>
+    <br><br>
     <div class="page-wrapper">
         <div id="roadmap" class="section-timeline-heading">
             <div class="container-2">
@@ -2176,6 +2258,7 @@
             <div class="container-2"></div>
         </div>
     </div>
+    <br><br>
     <div id="faq" data-w-id="81cad604-6d9a-505e-10ca-a497870fb9d7" style="opacity: 1;"
         class="cloneable-container-default-4">
         <div class="faq_title-wrap">
@@ -2285,8 +2368,7 @@
                             target="_blank" class="link-13 discord">Discord</a></div>
                 </div>
                 <div id="w-node-d6fce470-3667-18f8-fdec-73046d19e53b-c8b88d2a" class="footer-block"><img
-                        src="https://web.archive.org/web/20220111154027im_/https://uploads-ssl.webflow.com/61b26747ebe3769504b88d29/61b268b2323f093e75df63ef_Logooo.png"
-                        loading="lazy" width="56" alt="" class="footer-logo"></div>
+                        src="$MGAMING-logo.png" height="80" width="320" alt=""></div>
             </div>
             <div class="zzz-media-credit">
                 <div class="text-block">Design And Development By <a
